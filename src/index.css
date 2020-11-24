@@ -34,8 +34,9 @@ width: 35rem;
 }
 
 .TvEtext{
-  color: rgb(248, 95, 95);
-  text-shadow: 5px 5px 10px rgb(223, 223, 223);
+  color: rgb(248, 220, 95);
+  text-shadow: 5px 5px 10px rgb(197, 1, 1);
+  font-family: 'electrical', 'sans-serif';
 }
 
 .TvEimg {
