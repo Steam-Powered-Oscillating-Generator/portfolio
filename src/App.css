@@ -25,3 +25,12 @@ html, body {
   width: 46.6vw;
   height: 92.54vh;
 }
+
+.formdiv {
+  display: flex;
+}
+
+.formdiv img {
+  width: 50%;
+}
+
