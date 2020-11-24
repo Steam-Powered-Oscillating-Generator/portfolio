@@ -5,16 +5,23 @@ import DeathRay from '../images/DeathRay.png'
 
 const FunPage = () => {
     return (
-        <div>
-        <h2>Every Death Ray Has a Story</h2>
+        <div className="funStuff">
+            <div>
+                <h2 className="drText">Every Death Ray Has a Story</h2>
+            </div>
 
-        <img src={TeslavsEdison} alt="Tesla Vs Edison" />
+            <div>
+                <img src={TeslavsEdison} alt="Tesla Vs Edison" />
+            </div>
 
+            <div>
             <ReactPlayer
-            url="https://www.youtube.com/watch?v=3gOR91oentQ" />
+                url="https://www.youtube.com/watch?v=3gOR91oentQ" />
+            </div>
 
-        <img src={DeathRay} alt="Death Ray Blueprints" />
-
+            <div>
+                <img className="blueprints" src={DeathRay} alt="Death Ray Blueprints" />
+            </div>
         </div>
     );
 };
