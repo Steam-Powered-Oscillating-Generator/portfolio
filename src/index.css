@@ -34,5 +34,18 @@ width: 35rem;
 }
 
 .drText{
-  color: aliceblue;
+  color: rgb(204, 231, 255);
+  /* text-shadow: 5 10px 5 rgb(245, 242, 75); */
+}
+
+.TvEimg {
+  padding-bottom: 50px;
+}
+
+.DHvideo {
+  padding-bottom: 50px;
+}
+
+.DRdiv {
+padding-bottom: 50px;
 }

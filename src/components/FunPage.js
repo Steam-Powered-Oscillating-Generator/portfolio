@@ -10,16 +10,16 @@ const FunPage = () => {
                 <h2 className="drText">Every Death Ray Has a Story</h2>
             </div>
 
-            <div>
+            <div className="TvEimg">
                 <img src={TeslavsEdison} alt="Tesla Vs Edison" />
             </div>
 
-            <div>
+            <div className="DHvideo">
             <ReactPlayer
                 url="https://www.youtube.com/watch?v=3gOR91oentQ" />
             </div>
 
-            <div>
+            <div className="DRdiv">
                 <img className="blueprints" src={DeathRay} alt="Death Ray Blueprints" />
             </div>
         </div>

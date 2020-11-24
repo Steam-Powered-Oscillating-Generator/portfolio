@@ -5,12 +5,11 @@ html, body {
 }
 
 .App {
-  
   justify-content: center;
   background: #171B29 0% 0% no-repeat padding-box;
   opacity: 1;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .background2 {
