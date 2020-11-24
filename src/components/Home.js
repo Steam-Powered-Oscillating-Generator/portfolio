@@ -36,7 +36,7 @@ const Home = () => {
                 </div>
 
 
-                <img src={LightBulb} alt="light bulb" />
+                <img className='image-6' src={LightBulb} alt="light bulb" />
             </div>
             <div>
                 <h6>REVIEWS</h6>
@@ -46,13 +46,17 @@ const Home = () => {
                 <div className='deathray'>
                     <img src={DeathRay} alt="death ray" />
                 </div>
-                <div className="govagencies">
-                    <img src={Mi6} alt="mi6" />
-                    <img src={Fbi} alt="fbi" />
-                    <img src={Doj} alt="doj" />
-                    <img src={Cern} alt="doj" />
-                    <img src={Cia} alt="doj" />
-                    <img src={Kgb} alt="doj" />
+                <div className='yes'>
+                    <div className="govagencies">
+                        <img className='image-1' src={Mi6} alt="mi6" />
+                        <img className='image-2' src={Fbi} alt="fbi" />
+                        <img className='image-3' src={Doj} alt="doj" />
+                    </div>
+                    <div className="govagencies">
+                        <img className='image-4' src={Cern} alt="doj" />
+                        <img className='image-5' src={Cia} alt="doj" />
+                        <img className='image-6' src={Kgb} alt="doj" />
+                    </div>
                 </div>
             </div>
 
