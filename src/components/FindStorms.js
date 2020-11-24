@@ -27,7 +27,7 @@ const FindStorms = () => {
     // }
 
         <div>
-            Find Storms Page
+            Find Storms to Extract Electricity
         </div>
     );
 };
