@@ -21,7 +21,7 @@ const Home = () => {
             </div>
             <div className='text-and-pic'>
                 <div className='textandimage'>
-                    <div>
+                    <div className='colortext'>
                         <h1>Why Nikola Tesla is better than Edison</h1>
                         <p>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
