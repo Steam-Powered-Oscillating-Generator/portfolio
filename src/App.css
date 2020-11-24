@@ -9,8 +9,6 @@ html, body {
   justify-content: center;
   background: #171B29 0% 0% no-repeat padding-box;
   opacity: 1;
-  /* width: 1920px;
-  height: 2160px; */
   width: 100vw;
   height: 100vh;
 }
@@ -31,3 +29,10 @@ html, body {
   width: 50%;
 }
 
+.cover-image {
+  width: 100vh;
+}
+
+.text-and-pic {
+  display: block;
+}
