@@ -29,9 +29,20 @@ html, body {
 }
 
 .cover-image {
-  width: 100vh;
+  width: 100%;
 }
 
-.text-and-pic {
-  display: block;
+.text-and-image{
+display: flex;
+}
+
+.deathray img{
+  width: 50%;
+}
+
+.whatever {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
