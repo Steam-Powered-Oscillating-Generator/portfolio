@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
 
+@font-face {
+  font-family: 'Godofthunder';
+  src: local('Godofthunder'), url(./Godofthunder-0WO1P.ttf) format('truetype');
+}
 
 body {
   margin: 0;
@@ -20,6 +24,7 @@ header{
   right: 0;
   height: 80px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 25px 0 black;
 }
@@ -61,7 +66,7 @@ width: 35rem;
 .TvEtext{
   color: rgb(248, 220, 95);
   text-shadow: 5px 5px 10px rgb(197, 1, 1);
-  font-family: 'godofthunder', 'sans-serif';
+  font-family: 'Godofthunder', 'sans-serif';
 }
 
 .TvEimg {
