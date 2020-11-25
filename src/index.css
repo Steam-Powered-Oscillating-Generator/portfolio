@@ -98,7 +98,9 @@ padding-bottom: 50px;
   text-shadow: 5px 5px 10px rgb(197, 1, 1);
   font-family: 'Godofthunder', 'sans-serif';
   padding-top: 100px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .map {

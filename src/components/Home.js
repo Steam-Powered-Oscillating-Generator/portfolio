@@ -51,11 +51,11 @@ const Home = () => {
                 <br />
                 <p>When asked what it felt to be the smartest man alive, Albert Einstein said, “ I don’t know, you have to ask Nikola Tesla!”</p>
             </div>
-            <div className='whatever'>
+            <div className='DRsection'>
                 <div className='deathray'>
                     <img src={DeathRay} alt="death ray" />
                 </div>
-                <div className='yes'>
+                <div className='logos'>
                     <div className="govagencies">
                         <img className='image-1' src={Mi6} alt="mi6" />
                         <img className='image-2' src={Fbi} alt="fbi" />
