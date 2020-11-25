@@ -11,7 +11,7 @@ code {
 }
 
 nav {
-  background: rgb(103, 204, 250);
+  background: rgb(149, 165, 172);
   display: flex;
   height: 10vh;
   width: 100vw;
@@ -35,7 +35,7 @@ width: 35rem;
 .TvEtext{
   color: rgb(248, 220, 95);
   text-shadow: 5px 5px 10px rgb(197, 1, 1);
-  font-family: 'electrical', 'sans-serif';
+  font-family: 'godofthunder', 'sans-serif';
 }
 
 .TvEimg {

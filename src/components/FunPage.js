@@ -7,7 +7,7 @@ const FunPage = () => {
     return (
         <div className="funStuff">
             <div>
-                <h2 className="TvEtext">Every Death Ray Has a Story...</h2>
+                <h1 className="TvEtext">Every  Death  Ray  Has  a  Story...</h1>
             </div>
 
             <div className="TvEimg">
@@ -15,7 +15,7 @@ const FunPage = () => {
             </div>
 
             <div>
-            <h3 className="TvEtext">Watch This - Tesla vs. Edison</h3>
+            <h2 className="TvEtext">Watch This - Tesla vs. Edison</h2>
             </div>
             <div className="DHvideo">
             <ReactPlayer
@@ -23,7 +23,7 @@ const FunPage = () => {
             </div>
 
             <div>
-            <h3 className="TvEtext">Tesla's Death Ray Blueprints</h3>
+            <h2 className="TvEtext">Tesla's Death Ray Blueprints</h2>
             </div>
             <div className="DRdiv">
                 <img className="blueprints" src={DeathRay} alt="Death Ray Blueprints" />
