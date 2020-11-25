@@ -10,11 +10,10 @@ const Navbar = () => {
                 <ul>
                     <li><Link to='/'>Home</Link></li>
                     <li><Link to='/FunPage'>Edison Who?</Link></li>
-                    <li><Link to='/FindStorms'>Find Storms</Link></li>
+                    <li><Link to='/FindStorms'>Storm Tracker</Link></li>
                 </ul>
             </nav>
         </header>
-
     );
 };
 

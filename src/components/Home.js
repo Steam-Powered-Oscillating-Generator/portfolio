@@ -24,12 +24,17 @@ const Home = () => {
                     <div className='colortext'>
                         <h1>About Nikola</h1>
                         <p>
-                            Tesla was an absolute genius! He spoke eight languages
-                            <br />- Serbian, English, Czech, German, France, Hungarian, Italian
+                            Tesla was an absolute genius! He spoke eight languages:
+                            <br /> Serbian, English, Czech, German, France, Hungarian, Italian
                             <br />and Latin. He could memorize Entire books and recite
                             <br />them at will. He could visualize devices entirely in
                             <br />his head and then build them without ever writing
-                            <br />anything down. His notable inventions include...
+                            <br />anything down. He invented the first alternating current
+                            <br />(AC) motor and developed AC generation and transmission 
+                            <br />technology. Though he was famous and respected, he was
+                            <br />never able to translate his copious inventions into 
+                            <br />long-term financial success — unlike his early employer
+                            <br />and chief rival, Thomas Edison.
                         </p>
                     </div>
                     <div>
