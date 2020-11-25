@@ -14,6 +14,7 @@ import Cia from '../images/cia.png'
 import Kgb from '../images/kgb.png'
 
 const Home = () => {
+    useEffect(() => { startElectricity() }, [])
     return (
         <>
             <div>
@@ -36,9 +37,38 @@ const Home = () => {
                         <img className='nikolapic' src={Master} alt="tesla pic" />
                     </div>
                 </div>
-
-                <div className='bulbdiv'>
-                    <img className='image-6' src={LightBulb} alt="light bulb" />
+                <div class="electricity">
+                    <div class="plus-diode">
+                        <div class="ball">
+                            <div class="shine"></div>
+                        </div>
+                        <div class="socket"></div>
+                        <div class="socket foot"></div>
+                        <div class="ring"></div>
+                        <div class="ring medium"></div>
+                        <div class="ring small"></div>
+                    </div>
+                    <div class="minus-diode">
+                        <div class="ball">
+                            <div class="shine"></div>
+                        </div>
+                        <div class="socket"></div>
+                        <div class="socket foot"></div>
+                        <div class="ring"></div>
+                        <div class="ring medium"></div>
+                        <div class="ring small"></div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
+                        <defs>
+                            <filter id="f1" x="0" y="0">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+                            </filter>
+                        </defs>
+                        <g>
+                            <path d="M0,100,500,100" fill="none" stroke="#42ee77" filter="url(#f1)"></path>
+                            <path d="M0,100,500,100" fill="none" stroke="#42ee77"></path>
+                        </g>
+                    </svg>
                 </div>
             </div>
             <div className='quote'>
@@ -70,4 +100,60 @@ const Home = () => {
 
 export default Home;
 
+function startElectricity() {
+    class electricity {
+        constructor(selector) {
+            this.svg = document.querySelector(selector);
+            this.run();
+        }
 
+        render() {
+            let d = this.calculatePoints(0, 0, 500, 80);
+            this.svg.querySelectorAll('path')[0].setAttribute('d', d);
+            this.svg.querySelectorAll('path')[1].setAttribute('d', d);
+        }
+
+        calculatePoints(x, y, width, height) {
+            let points = [[x, height / 2]];
+            let maxPoints = 10;
+            let chunkRange = width / maxPoints;
+            for (let i = 0; i < maxPoints; i++) {
+                let cx = chunkRange * i + Math.cos(i) * chunkRange;
+                let cy = Math.random() * height;
+                points.push([cx, cy]);
+            }
+
+            points.push([width, height / 2]);
+
+            let d = points.map(point => point.join(','));
+            return 'M' + d.join(',');
+        }
+
+        run() {
+            let fps = 25,
+                now,
+                delta,
+                then = Date.now(),
+                interval = 1000 / fps,
+                iteration = 0,
+                loop = () => {
+                    requestAnimationFrame(loop);
+
+                    now = Date.now();
+                    delta = now - then;
+                    if (delta > interval) {
+                        then = now - delta % interval;
+
+                        // update stuff
+                        this.render(iteration++);
+                    }
+                };
+            loop();
+        }
+    }
+
+
+
+    new electricity('svg');
+
+}
