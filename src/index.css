@@ -19,6 +19,7 @@ header *{
 header{
   background-color: white;
   position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
@@ -89,15 +90,19 @@ padding-bottom: 50px;
   border-radius: 10px;
 }
 
+.stormh2 {
+  color: white;
+  padding-top: 100px;
+}
+
 .map {
   width: 100vw;
   height: 75vh;
   position: relative;
-  top: 100px;
 }
 
 .location-icon {
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(255, 245, 102);
 }
 
