@@ -1,15 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import Image from '../images/giphy.png'
 
 const Navbar = () => {
     return (
-    
-        <nav>
-            <Link to='/'>Home</Link>
-            <Link to='/FunPage'>Edison Who?</Link>
-            <Link to='/FindStorms'>Find Storms</Link>
-        </nav>
-        
+        <header>
+            <img src={Image} />
+            <nav>
+                <ul>
+                    <li><Link to='/'>Home</Link></li>
+                    <li><Link to='/FunPage'>Edison Who?</Link></li>
+                    <li><Link to='/FindStorms'>Find Storms</Link></li>
+                </ul>
+            </nav>
+        </header>
+
     );
 };
 
