@@ -33,8 +33,9 @@ html, body {
 }
 
 .nikolapic {
-  width: 250px;
+  width: 200px;
   margin-right: 300px;
+  margin-top: 30px;
 }
 
 .textandimage{
@@ -69,6 +70,21 @@ html, body {
   padding-top: 5%;
   padding-bottom: 3%;
 }
+
+.quote{
+  margin-bottom: 100px;
+  margin-top: 100px;
+  color: white
+
+}
+
+.quote h2{
+text-align: center;
+}
+
+.quote p{
+  text-align: center;
+  }
 .govagencies{
 display: flex;
 justify-content: space-around;
@@ -106,5 +122,5 @@ height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+
 }

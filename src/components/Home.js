@@ -24,9 +24,12 @@ const Home = () => {
                     <div className='colortext'>
                         <h1>About Nikola</h1>
                         <p>
-                        Tesla was an absolute genius! He spoke eight languages - Serbian, English, Czech, German, France, Hungarian, Italian
-                and Latin. He could memorize Entire books and recite them at will. He could visualize devices entirely in
-                his head and then build them without ever writing anything down. His notable inventions include...
+                            Tesla was an absolute genius! He spoke eight languages
+                            <br />- Serbian, English, Czech, German, France, Hungarian, Italian
+                            <br />and Latin. He could memorize Entire books and recite
+                            <br />them at will. He could visualize devices entirely in
+                            <br />his head and then build them without ever writing
+                            <br />anything down. His notable inventions include...
                         </p>
                     </div>
                     <div>
@@ -38,8 +41,9 @@ const Home = () => {
                     <img className='image-6' src={LightBulb} alt="light bulb" />
                 </div>
             </div>
-            <div>
-                <h6>REVIEWS</h6>
+            <div className='quote'>
+                <h2>REVIEWS</h2>
+                <br />
                 <p>When asked what it felt to be the smartest man alive, Albert Einstein said, “ I don’t know, you have to ask Nikola Tesla!”</p>
             </div>
             <div className='whatever'>
