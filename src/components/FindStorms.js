@@ -1,10 +1,28 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import SimplexNoise from '../simplex-noise'
+import axios from "axios";
+import Map from "./Map";
+
+// const FindStorms = () => {
+//     useEffect(() => {
+//         // start();
+//     }, [])
+
 
 const FindStorms = () => {
+    const [eventData, setEventData] = useState([]);
+
     useEffect(() => {
+        const fetchEvents = async () => {
+            let res = await axios.get(
+                "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events"
+            );
+            setEventData(res.data.events);
+        };
+        fetchEvents();
         start();
-    }, [])
+    }, []);
+
     return (
 
         // let [info, setInfo] = useState([]);
@@ -31,9 +49,13 @@ const FindStorms = () => {
         // }
 
         <div>
+            <div className='elec'>
+                <canvas id='c'></canvas>
 
-            <canvas id='c'></canvas>
+            </div>
 
+            Find Storms to Extract Electricity
+            <Map eventData={eventData} />
         </div>
     );
 };

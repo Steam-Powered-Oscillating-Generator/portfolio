@@ -156,7 +156,7 @@ body {
   position: relative;
 }
 
-svg {
+.elec svg {
   position: absolute;
   top: 18vh;
   width: 90%;
