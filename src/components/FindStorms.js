@@ -1,6 +1,20 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
+import axios from "axios";
+import Map from "./Map";
 
 const FindStorms = () => {
+    const [eventData, setEventData] = useState([]);
+
+    useEffect(() => {
+        const fetchEvents = async () => {
+          let res = await axios.get(
+            "https://eonet.sci.gsfc.nasa.gov/api/v2.1/events"
+          );
+          setEventData(res.data.events);
+        };
+        fetchEvents();
+      }, []);
+
     return (
 
           // let [info, setInfo] = useState([]);
@@ -28,6 +42,7 @@ const FindStorms = () => {
 
         <div>
             Find Storms to Extract Electricity
+            <Map eventData = {eventData} />
         </div>
     );
 };
