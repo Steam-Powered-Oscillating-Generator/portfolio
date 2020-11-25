@@ -7,7 +7,7 @@ const Map = ({ eventData, center, zoom }) => {
     const [locationInfo, setLocationInfo] = useState(null);
     const markers = eventData.map((eachEvent) => {
 
-        if (eachEvent.categories[0].id === 8) {
+        if (eachEvent.categories[0].id === 10) {
             console.log(eachEvent)
             return (
                 <LocationMarker

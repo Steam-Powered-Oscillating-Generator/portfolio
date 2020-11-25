@@ -1,7 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import SimplexNoise from '../simplex-noise'
 import axios from "axios";
 import Map from "./Map";
-import SimplexNoise from '../simplex-noise'
+
+// const FindStorms = () => {
+//     useEffect(() => {
+//         // start();
+//     }, [])
+
 
 const FindStorms = () => {
     const [eventData, setEventData] = useState([]);
@@ -14,21 +20,18 @@ const FindStorms = () => {
             setEventData(res.data.events);
         };
         fetchEvents();
-        // start();
+        start();
     }, []);
-
-    console.log(eventData)
-    // useEffect(() => {
-
-    // }, [])
 
     return (
         <div>
 
             <h2 className='stormh2'>Find Storms to Extract Electricity</h2>
             <Map eventData={eventData} />
-            {/* <canvas id='c'></canvas> */}
+            <div className='elec'>
+                <canvas id='c'></canvas>
 
+            </div>
         </div>
     );
 };
