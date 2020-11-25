@@ -3,12 +3,6 @@ import SimplexNoise from '../simplex-noise'
 import axios from "axios";
 import Map from "./Map";
 
-// const FindStorms = () => {
-//     useEffect(() => {
-//         // start();
-//     }, [])
-
-
 const FindStorms = () => {
     const [eventData, setEventData] = useState([]);
 

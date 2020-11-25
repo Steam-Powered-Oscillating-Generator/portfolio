@@ -31,9 +31,9 @@ const Home = () => {
                             <br />them at will. He could visualize devices entirely in
                             <br />his head and then build them without ever writing
                             <br />anything down. He invented the first alternating current
-                            <br />(AC) motor and developed AC generation and transmission 
+                            <br />(AC) motor and developed AC generation and transmission
                             <br />technology. Though he was famous and respected, he was
-                            <br />never able to translate his copious inventions into 
+                            <br />never able to translate his copious inventions into
                             <br />long-term financial success — unlike his early employer
                             <br />and chief rival, Thomas Edison.
                         </p>
@@ -84,6 +84,9 @@ const Home = () => {
             <div className='DRsection'>
                 <div className='deathray'>
                     <img src={DeathRay} alt="death ray" />
+                </div>
+                <div>
+                    <h2 className='sponsorh2'>Sponsored By:</h2>
                 </div>
                 <div className='logos'>
                     <div className="govagencies">
