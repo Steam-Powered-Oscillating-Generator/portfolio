@@ -18,13 +18,7 @@ const LandingPage = () => {
                         <button>Sign Up</button>
                     </form>
                     <img src={Lightsaber} alt="lightsaber" />
-                </div>
-                <h2>Why Nikola Tesla </h2>
-                <p>Tesla was a GENIUS! He spoke eighth languages - Serbian, English, Czech, German, France, Hungarian, Italian
-                and Latin. He could memorize Entire books and recite them at will. He could visualize devices entirely in
-                his head and then build them without ever writing anything down.
-        </p>
-
+                </div>           
             </div>
         </div>
     );

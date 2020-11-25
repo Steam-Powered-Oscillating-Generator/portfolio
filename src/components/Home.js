@@ -22,12 +22,11 @@ const Home = () => {
             <div className='text-and-pic'>
                 <div className='textandimage'>
                     <div className='colortext'>
-                        <h1>Why Nikola Tesla is better than Edison</h1>
+                        <h1>About Nikola</h1>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            <br />Sequi veritatis tempore quam nobis labore temporibus fugiat
-                            <br />laudantium mollitia dolorum suscipit inventore deserunt dolores
-                            <br />error officia eos fuga, fugit culpa natus!
+                        Tesla was an absolute genius! He spoke eight languages - Serbian, English, Czech, German, France, Hungarian, Italian
+                and Latin. He could memorize Entire books and recite them at will. He could visualize devices entirely in
+                his head and then build them without ever writing anything down. His notable inventions include...
                         </p>
                     </div>
                     <div>
