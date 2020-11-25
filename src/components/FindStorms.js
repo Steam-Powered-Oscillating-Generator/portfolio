@@ -26,7 +26,7 @@ const FindStorms = () => {
     return (
         <div>
 
-            <h2 className='stormh2'>Find Storms to Extract Electricity</h2>
+            <h1 className='stormsh1'>Find Storms to Extract Electricity</h1>
             <Map eventData={eventData} />
             <div className='elec'>
                 <canvas id='c'></canvas>
