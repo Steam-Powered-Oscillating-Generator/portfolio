@@ -42,10 +42,18 @@ width: 35rem;
   padding-bottom: 50px;
 }
 
+.TvEimg img {
+  border-radius: 5px;
+}
+
 .DHvideo {
   padding-bottom: 50px;
 }
 
 .DRdiv {
 padding-bottom: 50px;
+}
+
+.DRdiv img {
+  border-radius: 10px;
 }
