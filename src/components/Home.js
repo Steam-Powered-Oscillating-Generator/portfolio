@@ -31,12 +31,13 @@ const Home = () => {
                         </p>
                     </div>
                     <div>
-                        <img src={Master} alt="tesla pic" />
+                        <img className='nikolapic' src={Master} alt="tesla pic" />
                     </div>
                 </div>
 
-
-                <img className='image-6' src={LightBulb} alt="light bulb" />
+                <div className='bulbdiv'>
+                    <img className='image-6' src={LightBulb} alt="light bulb" />
+                </div>
             </div>
             <div>
                 <h6>REVIEWS</h6>

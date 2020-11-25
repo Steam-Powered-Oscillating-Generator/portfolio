@@ -32,12 +32,28 @@ html, body {
   width: 100%;
 }
 
-.text-and-image{
-display: flex;
+.nikolapic {
+  width: 250px;
+  margin-right: 300px;
+}
+
+.textandimage{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bulbdiv {
+  display: flex;
+  justify-content: center;
 }
 
 .deathray img{
   width: 50%;
+}
+
+.deathray {
+  display: flex;
+  justify-content: center;
 }
 
 .whatever {
@@ -85,5 +101,10 @@ height: 10%;
 }
 
 .colortext {
-  color: white
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
