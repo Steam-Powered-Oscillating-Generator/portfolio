@@ -129,6 +129,7 @@ height: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 200px;
 
 }
 

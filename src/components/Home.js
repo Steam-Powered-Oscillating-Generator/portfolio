@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 // IMAGES
 import Hero from '../images/Hero.png'
 import Master from '../images/tesla-master-of-lightning.png'
-import LightBulb from '../images/light-bulb.png'
+// import LightBulb from '../images/light-bulb.png'
 import DeathRay from '../images/death-ray2.png'
 import Mi6 from '../images/mi6.png'
 import Fbi from '../images/fbi.png'
@@ -42,26 +42,26 @@ const Home = () => {
                         <img className='nikolapic' src={Master} alt="tesla pic" />
                     </div>
                 </div>
-                <div class="electricity">
-                    <div class="plus-diode">
-                        <div class="ball">
-                            <div class="shine"></div>
+                <div className="electricity">
+                    <div className="plus-diode">
+                        <div className="ball">
+                            <div className="shine"></div>
                         </div>
-                        <div class="socket"></div>
-                        <div class="socket foot"></div>
-                        <div class="ring"></div>
-                        <div class="ring medium"></div>
-                        <div class="ring small"></div>
+                        <div className="socket"></div>
+                        <div className="socket foot"></div>
+                        <div className="ring"></div>
+                        <div className="ring medium"></div>
+                        <div className="ring small"></div>
                     </div>
-                    <div class="minus-diode">
-                        <div class="ball">
-                            <div class="shine"></div>
+                    <div className="minus-diode">
+                        <div className="ball">
+                            <div className="shine"></div>
                         </div>
-                        <div class="socket"></div>
-                        <div class="socket foot"></div>
-                        <div class="ring"></div>
-                        <div class="ring medium"></div>
-                        <div class="ring small"></div>
+                        <div className="socket"></div>
+                        <div className="socket foot"></div>
+                        <div className="ring"></div>
+                        <div className="ring medium"></div>
+                        <div className="ring small"></div>
                     </div>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 200">
                         <defs>
