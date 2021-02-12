@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios'
-import Navbar from './Navbar'
+import axios from 'axios';
+import Navbar from './Navbar';
+
 // IMAGES
-import Hero from '../images/Hero.png'
-import Master from '../images/tesla-master-of-lightning.png'
-// import LightBulb from '../images/light-bulb.png'
-import DeathRay from '../images/death-ray2.png'
-import Mi6 from '../images/mi6.png'
-import Fbi from '../images/fbi.png'
-import Doj from '../images/doj.png'
-import Cern from '../images/cern.png'
-import Cia from '../images/cia.png'
-import Kgb from '../images/kgb.png'
+import Hero from '../images/Hero.png';
+import Master from '../images/tesla-master-of-lightning.png';
+import DeathRay from '../images/death-ray2.png';
+import Mi6 from '../images/mi6.png';
+import Fbi from '../images/fbi.png';
+import Doj from '../images/doj.png';
+import Cern from '../images/cern.png';
+import Cia from '../images/cia.png';
+import Kgb from '../images/kgb.png';
 
 const Home = () => {
     useEffect(() => { startElectricity() }, [])

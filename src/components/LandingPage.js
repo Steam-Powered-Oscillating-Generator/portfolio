@@ -1,5 +1,5 @@
 import React from 'react';
-import Lightsaber from '../images/lightsaber.png'
+import Lightsaber from '../images/lightsaber.png';
 
 const LandingPage = () => {
     return (
@@ -18,7 +18,7 @@ const LandingPage = () => {
                         <button>Sign Up</button>
                     </form>
                     <img src={Lightsaber} alt="lightsaber" />
-                </div>           
+                </div>
             </div>
         </div>
     );

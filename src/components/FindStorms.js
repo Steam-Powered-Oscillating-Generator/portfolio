@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import SimplexNoise from '../simplex-noise'
+import SimplexNoise from '../simplex-noise';
 import axios from "axios";
 import Map from "./Map";
 
@@ -20,7 +20,7 @@ const FindStorms = () => {
     return (
         <div>
 
-            <h1 className='stormsh1'>Find Storms to Extract Electricity</h1>
+            <h1 className='stormsh1'>Find Storms to Harness Their Electricity</h1>
             <div className='elec'>
                 <canvas id='c'></canvas>
             </div>

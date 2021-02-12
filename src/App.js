@@ -1,10 +1,10 @@
 import './App.css';
-import { Switch, Route } from 'react-router-dom'
-import LandingPage from './components/LandingPage'
-import Home from './components/Home'
-import FunPage from './components/FunPage'
-import Navbar from './components/Navbar'
-import FindStorms from './components/FindStorms'
+import { Switch, Route } from 'react-router-dom';
+import LandingPage from './components/LandingPage';
+import Home from './components/Home';
+import FunPage from './components/FunPage';
+import Navbar from './components/Navbar';
+import FindStorms from './components/FindStorms';
 
 function App() {
   return (
